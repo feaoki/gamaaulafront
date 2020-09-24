@@ -1,0 +1,1226 @@
+página index
+
+<!DOCTYPE html>
+<html>
+<header>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+</header>
+<title>Gama Academy - Curso de Front End</title>
+
+<body>
+
+    <table border="0" align="center" width="100%">
+        <tr>
+            <td><a href="..\html\index.html" target="blank"><img src="..\imagens\logo.png" width="100%"></a></td>
+            <td align="center">QUEM SOMOS</td>
+            <td align="center">CURSOS ONLINE</td>
+            <td align="center">GAMA EXPERIENCE</td>
+            <td align="center">PARA EMPRESAS</td>
+            <td align="center"><a href="..\html\contato.html" target="blank">CONTATO</a></td>
+            <td align="center">CONTEÚDO</td>
+        </tr>
+
+
+
+    </table>
+
+    <h2>QUEM SOMOS</h2>
+
+    <p>As escolas tradicionais trabalham com metodologias que não conseguem suprir as novas
+        demandas do mundo.<br> Preparam profissionais que não são capazes de assumir vagas de
+        emprego no mercado atual e, dificilmente, lidar com os avanços tecnológicos. <br>Não falam
+        sobre soft skills, habilidades altamente requisitadas. <br>E não abordam a importância
+        da multidisciplinaridade.<br><br>
+
+        A Gama Academy forma profissionais com quatro características fundamentais:</p>
+
+    <ul type="square">
+        <li>Vontade de Aprender e Ensinar;</li>
+        <li>Soft Skills;</li>
+        <li>Mindset Empreendedor;</li>
+        <li>Inovação Criativa.</li>
+
+    </ul>
+
+    <div align="center">
+        <h2>VIDEO INSTITUCIONAL</h2>
+
+        <video controls=" autoplay=" true width="400" height="300">
+            <source src="..\videos\gama.mp4" />
+
+        </video>
+    </div>
+
+</body>
+
+</html>
+
+página contato 
+
+<!DOCTYPE html>
+<html>
+<header>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+</header>
+<title>Gama Academy - Curso de Front End</title>
+
+<body>
+
+    <table border="0" align="center" width="100%">
+        <tr>
+            <td><a href="..\html\index.html" target="blank"><img src="..\imagens\logo.png" width="100%"></a></td>
+            <td align="center">QUEM SOMOS</td>
+            <td align="center">CURSOS ONLINE</td>
+            <td align="center">GAMA EXPERIENCE</td>
+            <td align="center">PARA EMPRESAS</td>
+            <td align="center"><a href="..\html\contato.html" target="blank">CONTATO</a></td>
+            <td align="center">CONTEÚDO</td>
+        </tr>
+
+
+
+    </table>
+
+
+
+
+</body>
+
+</html>
+
+formulário
+
+<form id="formulario" method="POST">
+        <LABEL>Nome:</LABEL><input type="text" name="nome"><br>
+        <LABEL>Email:</LABEL><input type="email" name="email"><br>
+        <LABEL>Senha:</LABEL><input type="password" name="senha"><br>
+        <LABEL></LABEL>
+        <LABEL></LABEL>
+</form>
+
+
+<form id="formulario" method="POST">
+        <LABEL>Nome:</LABEL><input type="text" name="nome" required><br>
+        <LABEL>Email:</LABEL><input type="email" name="email" required><br>
+        <LABEL>Senha:</LABEL><input type="password" name="senha" required><br>
+        <LABEL>Data Nascimento:</LABEL><input type="date" name="date" required><br>
+        <LABEL>Anexar arquivo</LABEL><input type="file" name="arquivo"><br>
+        <input type="submit" value="Enviar">
+</form>
+
+
+<INPUT TYPE="checkbox" NAME="OPCAO" VALUE="op1"> opção1<INPUT TYPE="checkbox" NAME="OPCAO" VALUE="op2"> opção2
+
+
+<INPUT TYPE="RADIO" NAME="OPCAO" VALUE="op1"> opção1<INPUT TYPE="RADIO" NAME="OPCAO" VALUE="op2"> opção2
+
+<form id="formulario" method="POST">
+        <LABEL>Nome:</LABEL><input type="text" name="nome" required><br>
+        <LABEL>Email:</LABEL><input type="email" name="email" required><br>
+        <LABEL>Senha:</LABEL><input type="password" name="senha" required><br>
+        <LABEL>Data Nascimento:</LABEL><input type="date" name="date" required><br>
+        <LABEL>Genero</LABEL><INPUT TYPE="RADIO" NAME="OPCAO" VALUE="op1"> Feminino<INPUT TYPE="RADIO" NAME="OPCAO" VALUE="op1"> Masculino <br>
+        <LABEL>Cursos</LABEL><select>
+                            <option value="PHP">PHP</option>
+                            <option value="XML">XML</option>
+                            <option value="JS">JS</option>
+                            <option value="ASP">ASP</option>
+        </select>    
+        
+        <LABEL>Anexar arquivo</LABEL><input type="file" name="arquivo"><br>
+
+        <input type="submit" value="Enviar">
+</form>
+
+==============================
+formulário completo 
+
+    <form id="formulario" method="POST" align="center">
+        <FIeldset>
+            <legend>Formulário de contato para Cursos</legend>
+            <LABEL>Nome:</LABEL><input type="text" name="nome" required><br>
+            <LABEL>Email:</LABEL><input type="email" name="email" required><br>
+            <LABEL>Senha:</LABEL><input type="password" name="senha" required><br>
+            <LABEL>Data Nascimento:</LABEL><input type="date" name="date" required><br>
+            <LABEL>Genero</LABEL><INPUT TYPE="RADIO"  NAME="OPCAO"  VALUE="op1"> Feminino<INPUT TYPE="RADIO"
+                 NAME="OPCAO"  VALUE="op1"> Masculino <br>
+            <LABEL>Cursos</LABEL><select>
+                <option value="PHP">PHP</option>
+                <option value="XML">XML</option>
+                <option value="JS">JS</option>
+                <option value="ASP">ASP</option>
+            </select> <br>
+
+            <LABEL>Anexar arquivo</LABEL><input type="file" name="arquivo"><br>
+
+            <input type="submit" value="Enviar">
+        </FIeldset>
+    </form>
+==================================
+
+
+Criando Estilos em CSS
+    <style>
+        body{
+            background-color:Aquamarine;
+        }
+        p{
+            color: black;
+            font-size: 12px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        .menu{
+            color: blue;
+            font-size: 14px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: bold;
+        }
+
+        .titulo{
+            color:#FF4500;
+            font-size: 14px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: bold;
+        }
+    </style>
+
+==================================
+
+modelo de estilos 
+
+<style>
+        body {
+            background-color: darkmagenta;
+        }
+
+        p {
+            color: black;
+            font-size: 12px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        .menu {
+            color: blue;
+            font-size: 14px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: bold;
+        }
+
+        .titulo {
+            color: #FF4500;
+            font-size: 14px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: bold;
+        }
+
+        .cor_do_fundo {
+            background-color: cyan;
+        }
+    </style>
+
+
+==========================================
+chamada do arquivo externo em css
+
+ <link rel="stylesheet" href="..\css\estilo.css">
+==========================================
+
+arquivo de estilos
+    body {
+        background-color: #FFFACD;
+    }
+
+    p {
+        color: black;
+        font-size: 12px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .menu {
+        color: blue;
+        font-size: 14px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bold;
+    }
+
+    .titulo {
+        color: #FF4500;
+        font-size: 14px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bold;
+    }
+
+    .cor_do_fundo {
+        background-color: cyan;
+    }
+
+    #formulario{
+        color: greenyellow;
+        font-size: 12px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bold;
+
+    }
+
+=========================================
+
+página index
+
+<!DOCTYPE html>
+<html>
+<header>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel="stylesheet" href="..\css\estilo.css">
+
+    <style>
+        .titulo2{
+        color:darkviolet;
+        font-size: 14px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bold;
+
+        }
+
+    </style>
+</header>
+<title>Gama Academy - Curso de Front End</title>
+
+<body>
+
+    <table class="menu" border="0" align="center" width="100%">
+        <tr>
+            <td><a href="..\html\index.html" target="blank"><img src="..\imagens\logo.png" width="100%"></a></td>
+            <td align="center">QUEM SOMOS</td>
+            <td align="center">CURSOS ONLINE</td>
+            <td align="center">GAMA EXPERIENCE</td>
+            <td align="center">PARA EMPRESAS</td>
+            <td align="center"><a href="..\html\contato.html" target="blank">CONTATO</a></td>
+            <td align="center">CONTEÚDO</td>
+        </tr>
+
+
+
+    </table>
+
+    <h2 class="titulo2">QUEM SOMOS</h2>
+
+    <p>As escolas tradicionais <u><b>trabalham com metodologias</b></u> que não conseguem suprir as novas
+        demandas do mundo.<br> Preparam profissionais que não são capazes de assumir vagas de
+        emprego no mercado atual e, dificilmente, lidar com os avanços tecnológicos. <br>Não falam
+        sobre soft skills, habilidades altamente requisitadas. <br>E não abordam a importância
+        da multidisciplinaridade.<br><br>
+
+        A Gama Academy forma profissionais com quatro características fundamentais:</p>
+
+    <ul type="square">
+        <li style="color:red;font-weight: bold;">Vontade de Aprender e Ensinar;</li>
+        <li>Soft Skills;</li>
+        <li>Mindset Empreendedor;</li>
+        <li>Inovação Criativa.</li>
+
+    </ul>
+
+    <div align="center">
+        <h2 class="titulo2">VIDEO INSTITUCIONAL</h2>
+
+        <video controls=" autoplay=" true width="400" height="300">
+            <source src="..\videos\gama.mp4" />
+
+        </video>
+    </div>
+
+</body>
+
+</html>
+
+===============================================
+
+página de contato
+
+<!DOCTYPE html>
+<html>
+<header>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel="stylesheet" href="..\css\estilo.css">
+
+</header>
+<title>Gama Academy - Curso de Front End</title>
+
+<body>
+
+    <table class="menu" border="0" align="center" width="100%">
+        <tr>
+            <td><a href="..\html\index.html" target="blank"><img src="..\imagens\logo.png" width="100%"></a></td>
+            <td align="center">QUEM SOMOS</td>
+            <td align="center">CURSOS ONLINE</td>
+            <td align="center">GAMA EXPERIENCE</td>
+            <td align="center">PARA EMPRESAS</td>
+            <td align="center"><a href="..\html\contato.html" target="blank">CONTATO</a></td>
+            <td align="center">CONTEÚDO</td>
+        </tr>
+
+
+
+    </table>
+
+    <form id="formulario" method="POST" align="center">
+        <FIeldset>
+            <legend>Formulário de contato para Cursos</legend>
+            <LABEL>Nome:</LABEL><input type="text" name="nome" required><br>
+            <LABEL>Email:</LABEL><input type="email" name="email" required><br>
+            <LABEL>Senha:</LABEL><input type="password" name="senha" required><br>
+            <LABEL>Data Nascimento:</LABEL><input type="date" name="date" required><br>
+            <LABEL>Genero</LABEL><INPUT TYPE="RADIO"  NAME="OPCAO"  VALUE="op1"> Feminino<INPUT TYPE="RADIO"
+                 NAME="OPCAO"  VALUE="op1"> Masculino <br>
+            <LABEL>Cursos</LABEL><select>
+                <option value="PHP">PHP</option>
+                <option value="XML">XML</option>
+                <option value="JS">JS</option>
+                <option value="ASP">ASP</option>
+            </select> <br>
+
+            <LABEL>Anexar arquivo</LABEL><input type="file" name="arquivo"><br>
+
+            <input type="submit" value="Enviar">
+        </FIeldset>
+    </form>
+
+
+
+</body>
+
+</html>
+=======================================================
+
+
+segue o código fonte sensacional 
+
+<input type="radio" name="opcao" value="Masculino"/> Masculino<input type="radio" name="opcao" value="Feminino"/> Feminino<br>
+
+
+=======================================================
+
+formatação do CSS para label, formulário e input
+
+    body {
+        background-color: #FFFACD;
+    }
+
+    p {
+        color: black;
+        font-size: 12px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .menu {
+        color: blue;
+        font-size: 14px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bold;
+    }
+
+    .titulo {
+        color: #FF4500;
+        font-size: 14px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bold;
+    }
+
+    .cor_do_fundo {
+        background-color: cyan;
+    }
+
+    #area #formulario{
+        position: absolute;
+        display:block;
+        color: green;
+        font-size: 12px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bold;
+
+    }
+
+    #area{
+    position: relative;
+    left:32%;
+    width: 320px;
+    height: 300px;
+    }
+
+    fieldset
+    {
+        background-color: bisque;
+        width: 300px;
+        height: 250px;
+    }
+
+    legend{
+        font-weight: bold;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+    }
+    #formulario input.campo_nome
+    {
+        background-color: darkorange;
+        position: absolute;
+        left:65px;
+        top:18px;
+        width: 200px;
+
+
+    }
+    #formulario input.campo_email
+    {
+        background-color: darkorange;
+        position: absolute;
+        left:65px;
+        top:42px;
+        width: 240px;
+
+    }
+
+    #formulario input.campo_senha
+    {
+        background-color: darkorange;
+        position: absolute;
+        left:65px;
+        top:64px;
+        width: 30px;
+
+    }
+
+    .label1
+    {
+        position: absolute;
+        left:19%px;
+        margin-right: 5px;
+        top:18px;
+
+
+    }
+
+    .label2
+    {
+        position: absolute;
+        left:19%px;
+        margin-right: 5px;
+        top:42px;
+
+    }
+
+    .label3
+    {
+        position: absolute;
+        left:19%px;
+        margin-right: 5px;
+        top:64px;
+
+    }
+
+==============================================
+estrutura da página em javascript
+
+<!DOCTYPE html>
+<html>
+<header>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel="stylesheet" href="..\css\estilo.css">
+
+</header>
+<title>Gama Academy - Curso de Front End - JavaScript</title>
+
+<body>
+
+</body>
+</html>
+==============================================
+
+
+<script>
+// window.alert("Seja bem vindo a Gama Academy");
+var empresa="Gama Academy";
+var curso="Front End com Java Script";
+var separador=" - ";
+alert(empresa+separador+curso);
+
+</script>
+
+
+=============================================
+var nome=prompt("Seja bem vindo, digite o seu nome","Insira o seu nome");
+// document.write("Parabéns "+nome +" você entrou na nossa suuuuuper página");
+alert("Parabéns "+nome +" você entrou na nossa suuuuuper página");
+
+==============================================
+
+<!DOCTYPE html>
+<html>
+<header>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel="stylesheet" href="..\css\estilo.css">
+<script>
+// window.alert("Seja bem vindo a Gama Academy");
+var empresa="Gama Academy";
+var curso="Front End com Java Script";
+var separador=" - ";
+//alert(empresa+separador+curso);
+
+var nome=prompt("Seja bem vindo, digite o seu nome","Insira o seu nome");
+// document.write("Parabéns "+nome +" você entrou na nossa suuuuuper página");
+alert("Parabéns "+nome +" você entrou na nossa suuuuuper página");
+
+function funcao1()
+{
+    alert("Tioooo tu é muito curioso mesmo");
+}
+
+</script>
+
+
+</header>
+<title>Gama Academy - Curso de Front End - JavaScript</title>
+
+<body>
+<input type="button" onclick="funcao1()" value="Me click">
+
+</body>
+</html>
+
+
+==================================================
+<!DOCTYPE html>
+<html>
+<header>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel="stylesheet" href="..\css\estilo.css">
+    <script type="text/javascript" src="..\js\java.js"></script>
+
+
+</header>
+<title>Gama Academy - Curso de Front End - JavaScript</title>
+
+<body>
+<input type="button" onclick="funcao1()" value="Me click"><br>
+
+<form name="formuser" method="POST">
+    Nome: <input type="text" name="nome"><br>
+    Email:<input type="text" name="email"><br>
+    Senha:<input type="text" name="senha"><br>
+    <input type="button" onclick="validar()" value="Enviar"><br>
+
+</form>
+
+</body>
+</html>
+===========================================================
+
+
+java.js
+
+
+// window.alert("Seja bem vindo a Gama Academy");
+var empresa = "Gama Academy";
+var curso = "Front End com Java Script";
+var separador = " - ";
+//alert(empresa+separador+curso);
+
+var nome = prompt("Seja bem vindo, digite o seu nome", "Insira o seu nome");
+// document.write("Parabéns "+nome +" você entrou na nossa suuuuuper página");
+alert("Parabéns " + nome + " você entrou na nossa suuuuuper página");
+
+function funcao1() {
+    alert("Tioooo tu é muito curioso mesmo");
+}
+
+function validar() {
+    alert("oi funcionou");
+
+    var nome = formuser.nome.value;
+    var email = formuser.email.value;
+    var senha = formuser.senha.value;
+
+    if (nome == "") {
+        alert("Preencha o campo Nome");
+        formuser.nome.focus();
+        return false;
+    }
+}
+
+
+
+======================================================
+
+java.html
+
+<!DOCTYPE html>
+<html>
+<header>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel="stylesheet" href="..\css\estilo.css">
+    <script type="text/javascript" src="..\js\java.js"></script>
+
+
+</header>
+<title>Gama Academy - Curso de Front End - JavaScript</title>
+
+<body>
+<!-- <input type="button" onclick="funcao1()" value="Me click"><br> -->
+
+<form name="formuser" method="POST">
+    Nome: <input type="text" name="nome"><br>
+    Email:<input type="text" name="email"><br>
+    Senha:<input type="text" name="senha"><br>
+    <input type="button" onclick="validar()" value="Enviar"><br>
+
+</form>
+
+</body>
+</html>
+=========================================================================
+
+fonte js
+
+
+// window.alert("Seja bem vindo a Gama Academy");
+var empresa = "Gama Academy";
+var curso = "Front End com Java Script";
+var separador = " - ";
+//alert(empresa+separador+curso);
+
+var nome = prompt("Seja bem vindo, digite o seu nome", "Insira o seu nome");
+// document.write("Parabéns "+nome +" você entrou na nossa suuuuuper página");
+alert("Parabéns " + nome + " você entrou na nossa suuuuuper página");
+
+function funcao1() {
+    alert("Tioooo tu é muito curioso mesmo");
+}
+
+function validar() {
+    // alert("oi funcionou");
+
+    var nome = formuser.nome.value;
+    var email = formuser.email.value;
+    var senha = formuser.senha.value;
+
+    if (nome == "") {
+        alert("Preencha o campo Nome");
+        formuser.nome.focus();
+        return false;
+    }
+
+    if(email=="" || email.indexOf('@')==-1 ){
+        alert("Preencha o campo email, com uma conta válida");
+        formuser.email.focus();
+        return false;
+    }
+
+    if(senha=="" || senha.length <=5){
+        alert("Preencha o campo e digite uma senha maior que 6 caracteres");
+        formuser.senha.focus();
+        return false;
+
+    }
+
+    alert("Prezado "+nome+" estaremos lhe enviando o nosso contato para o email "+email);
+}
+
+
+// window.alert("Seja bem vindo a Gama Academy");
+var empresa = "Gama Academy";
+var curso = "Front End com Java Script";
+var separador = " - ";
+//alert(empresa+separador+curso);
+
+var nome = prompt("Seja bem vindo, digite o seu nome", "Insira o seu nome");
+// document.write("Parabéns "+nome +" você entrou na nossa suuuuuper página");
+alert("Parabéns " + nome + " você entrou na nossa suuuuuper página");
+
+function funcao1() {
+    alert("Tioooo tu é muito curioso mesmo");
+}
+
+function validar() {
+    // alert("oi funcionou");
+
+    var nome = formuser.nome.value;
+    var email = formuser.email.value;
+    var senha = formuser.senha.value;
+
+    if (nome == "") {
+        alert("Preencha o campo Nome");
+        formuser.nome.focus();
+        return false;
+    }
+
+    if(email=="" || email.indexOf('@')==-1 ){
+        alert("Preencha o campo email, com uma conta válida");
+        formuser.email.focus();
+        return false;
+    }
+
+    if(senha=="" || senha.length <=5){
+        alert("Preencha o campo e digite uma senha maior que 6 caracteres");
+        formuser.senha.focus();
+        return false;
+
+    }
+
+    alert("Prezado "+nome+" estaremos lhe enviando o nosso contato para o email "+email);
+}
+
+https://getbootstrap.com/
+
+======================================================
+layout virgem 
+
+<!DOCTYPE html>
+<html>
+<header>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel="stylesheet" href="..\css\estilo.css">
+ 
+
+</header>
+<title>Gama Academy - Curso de Front End - JavaScript</title>
+
+<body>
+
+    
+</body>
+</html>
+
+
+.container{
+    border: 3px solid yellowgreen;
+    min-height: 500px
+    
+    }
+
+    .div1{
+        border: 2px solid red;	
+       }
+       
+       .div2{
+        border: 2px solid green;	
+       }
+       
+       .div3{
+        border: 2px solid yellow;	
+       }
+       
+       .div4{
+        border: 2px solid blue;	
+       }
+
+       .div5{
+        border: 2px solid orange;	
+       }
+
+       .div6{
+        border: 3px solid yellow;	
+       }
+       
+       .div7{
+        border: 2px solid blue;	
+       }
+
+
+============================
+arquivo CSS 
+
+    body {
+        background-color: #FFFACD;
+    }
+
+    p {
+        color: black;
+        font-size: 12px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .menu {
+        color: blue;
+        font-size: 14px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bold;
+    }
+
+    .titulo {
+        color: #FF4500;
+        font-size: 14px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bold;
+    }
+
+    .cor_do_fundo {
+        background-color: cyan;
+    }
+
+    #area #formulario{
+        position: absolute;
+        display:block;
+        color: green;
+        font-size: 12px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bold;
+
+    }
+
+    #area{
+    position: relative;
+    left:32%;
+    width: 320px;
+    height: 300px;
+    }
+
+    fieldset
+    {
+        background-color: bisque;
+        width: 300px;
+        height: 250px;
+    }
+
+    legend{
+        font-weight: bold;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+    }
+    #formulario input.campo_nome
+    {
+        background-color:whitesmoke;
+        position: absolute;
+        left:65px;
+        top:18px;
+        width: 200px;
+
+
+    }
+    #formulario input.campo_email
+    {
+        background-color: whitesmoke;
+        position: absolute;
+        left:65px;
+        top:42px;
+        width: 240px;
+
+    }
+
+    #formulario input.campo_senha
+    {
+        background-color: whitesmoke;
+        position: absolute;
+        left:65px;
+        top:64px;
+        width: 30px;
+
+    }
+
+    .label1
+    {
+        position: absolute;
+        left:19px;
+        margin-right: 5px;
+        top:18px;
+
+
+    }
+
+    .label2
+    {
+        position: absolute;
+        left:19px;
+        margin-right: 5px;
+        top:42px;
+
+    }
+
+    .label3
+    {
+        position: absolute;
+        left:19px;
+        margin-right: 5px;
+        top:64px;
+
+    }
+
+    .container{
+        border: 3px solid yellowgreen;
+        min-height: 500px
+        
+        }
+    
+        .div1{
+            border: 2px solid red;	
+           }
+           
+           .div2{
+            border: 2px solid green;	
+           }
+           
+           .div3{
+            border: 2px solid yellow;	
+           }
+           
+           .div4{
+            border: 2px solid blue;	
+           }
+    
+           .div5{
+            border: 2px solid orange;	
+           }
+    
+           .div6{
+            border: 3px solid yellow;	
+           }
+           
+           .div7{
+            border: 2px solid blue;	
+           }
+===========================================
+
+página bootstrap
+
+<!DOCTYPE html>
+<html>
+<header>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel="stylesheet" href="..\css\estilo.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+</header>
+<title>Gama Academy - BootStrap</title>
+
+<body>
+<div class="containner">
+
+    
+</div>
+
+
+
+
+</body>
+
+</html>
+====================================
+página bootstrap
+
+<!DOCTYPE html>
+<html>
+<header>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel="stylesheet" href="..\css\estilo.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+</header>
+<title>Gama Academy - BootStrap</title>
+
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-md-2 col-sm-3 col-xs-3 div1">HOME</div>
+        <div class="col-md-5 col-sm-3 col-xs-3 div2">PRODUTOS</div>
+        <div class="col-md-3 col-sm-3 col-xs-3 div3">CONTATO</div> 
+        <div class="col-md-2 col-sm-3 col-xs-3 div4">LINK</div>
+    </div>
+    <div class="row">
+        <div class="col-md-12 col-sm-12 col-xs-3 div1"><img src="..\imagens\banner.png" width="100%"</div>
+
+    </div>
+</div>
+
+
+
+
+</body>
+
+</html>
+
+==================================================
+body {
+        background-color: #FFFACD;
+    }
+
+    p {
+        color: black;
+        font-size: 12px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .menu {
+        color: blue;
+        font-size: 14px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bold;
+    }
+
+    .titulo {
+        color: #FF4500;
+        font-size: 14px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bold;
+    }
+
+    .div10
+    {
+        color: green;
+        font-size: 28px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bold;
+        text-align:center;
+    }
+
+
+    .cor_do_fundo {
+        background-color: cyan;
+    }
+
+    #area #formulario{
+        position: absolute;
+        display:block;
+        color: green;
+        font-size: 12px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bold;
+
+    }
+
+    #area{
+    position: relative;
+    left:32%;
+    width: 320px;
+    height: 300px;
+    }
+
+    fieldset
+    {
+        background-color: bisque;
+        width: 300px;
+        height: 250px;
+    }
+
+    legend{
+        font-weight: bold;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+    }
+    #formulario input.campo_nome
+    {
+        background-color:whitesmoke;
+        position: absolute;
+        left:65px;
+        top:18px;
+        width: 200px;
+
+
+    }
+    #formulario input.campo_email
+    {
+        background-color: whitesmoke;
+        position: absolute;
+        left:65px;
+        top:42px;
+        width: 240px;
+
+    }
+
+    #formulario input.campo_senha
+    {
+        background-color: whitesmoke;
+        position: absolute;
+        left:65px;
+        top:64px;
+        width: 30px;
+
+    }
+
+    .label1
+    {
+        position: absolute;
+        left:19px;
+        margin-right: 5px;
+        top:18px;
+
+
+    }
+
+    .label2
+    {
+        position: absolute;
+        left:19px;
+        margin-right: 5px;
+        top:42px;
+
+    }
+
+    .label3
+    {
+        position: absolute;
+        left:19px;
+        margin-right: 5px;
+        top:64px;
+
+    }
+
+
+    
+        /* 
+            .container{
+        border: 3px solid yellowgreen;
+        min-height: 500px
+        
+        }
+        
+        
+            .div1{
+            border: 2px solid red;	
+           }
+           
+           .div2{
+            border: 2px solid green;	
+           }
+           
+           .div3{
+            border: 2px solid yellow;	
+           }
+           
+           .div4{
+            border: 2px solid blue;	
+           }
+    
+           .div5{
+            border: 2px solid orange;	
+           }
+    
+           .div6{
+            border: 3px solid yellow;	
+           }
+           
+           .div7{
+            border: 2px solid blue;	
+           } */
+
+ESTILO   CSS 
+
+
